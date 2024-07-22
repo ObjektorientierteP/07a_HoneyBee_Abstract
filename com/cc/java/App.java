@@ -13,6 +13,7 @@ public class App {
         pollObj(worker);
         pollObj(drone);
    
+        pollObj(bird);
 
         // HoneyBee ist abstrakt --> Fehler!
         // HoneyBee bee = new HoneyBee();
@@ -25,6 +26,7 @@ public class App {
     private static void pollObj(HoneyBee bee) {
         output(bee.doYourJob());
         output(bee.fly());
+        output("------------");
     }
 
    
